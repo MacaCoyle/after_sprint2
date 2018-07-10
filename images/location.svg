@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="24px" viewBox="0 0 17 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="peopleCard" transform="translate(-122.000000, -70.000000)" stroke="#253043">
+            <g id="Group-14" transform="translate(123.000000, 16.000000)">
+                <g id="Group-13" transform="translate(0.000000, 55.000000)">
+                    <g id="location">
+                        <path d="M14.3059682,10.6864735 C14.7473101,9.72667309 15,8.66167716 15,7.53495492 C15,3.37364631 11.64234,0 7.50021634,0 C3.35809271,0 0,3.37364631 0,7.53495492 C0,8.66167716 0.253122566,9.72667309 0.694464476,10.6864735 L7.50021634,23 L14.3059682,10.6864735 Z" id="Shape"></path>
+                        <path d="M10,6.5 C10,7.8804866 8.88057861,9 7.50020547,9 C6.11942139,9 5,7.8804866 5,6.5 C5,5.11910242 6.11942139,4 7.50020547,4 C8.88057861,4 10,5.11910242 10,6.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
