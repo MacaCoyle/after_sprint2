@@ -45,20 +45,17 @@ function showSlides() {
     setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
-function toggleDocs(event) {
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-    if (event.target.className == 'boton_mostrar') {
-        console.log(event.target.nextSibling);
-        var next = event.target.nextSibling;
-        var next= next.nextSibling;
-console.log(next);
-        if (next.style.display == "none") {
-            next.style.display = "block";
-
-        } else {
-            next.style.display = "none";
-        }
-    }
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
 }
-
-document.addEventListener('click', toggleDocs, true);

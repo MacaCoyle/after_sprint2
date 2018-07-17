@@ -52,7 +52,6 @@ if($_POST){
 </header>
 
 <main class="reg_fields">
-
  <form id="register" action="" method="post">
     <div>
         <label for="name">Email</label> 
@@ -62,9 +61,8 @@ if($_POST){
         <label for="password">Password</label> 
         <input type="password" name="password">
     </div>
-    <div>
-        <a href="#">¿Olvidaste tu cuenta?</a>     
-    </div>
+    <div class="boton-link">
+        <a href="forgot_password.php">¿Olvidaste tu cuenta?</a>
         <button class="button_login" type="submit">Enviar</button>
     </div>
     </form>
